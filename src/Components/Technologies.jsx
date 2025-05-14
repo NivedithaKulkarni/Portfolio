@@ -12,6 +12,7 @@ import { FaJsSquare } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { FaAws } from "react-icons/fa";
+import { TbBrandFramerMotion } from "react-icons/tb";
 import {motion} from "framer-motion"
 
 const iconvariants = (i) => ({
@@ -40,6 +41,7 @@ const techList = [
   { icon: <FaPython className="icon python" />, name: "Python" },
   { icon: <GrMysql className="icon mysql" />, name: "MySQL" },
   { icon: <FaAws className="icon aws" />, name: "AWS" },
+  { icon: <TbBrandFramerMotion className="icon fm" />, name: "Framer Motion" },
 ];
 
 function Technologies() {
