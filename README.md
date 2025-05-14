@@ -1,12 +1,23 @@
-# React + Vite
+# 🚀 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi! I'm **Niveditha Ramesh Kulkarni**, a passionate Full-Stack Developer with a strong foundation in the **MERN stack** and a growing skill set in frontend technologies like **React**, **Tailwind CSS**, and **Framer Motion**. This is my personal portfolio to showcase the projects I've built and the technologies I love working with.
 
-Currently, two official plugins are available:
+## 🔗 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 [View Portfolio](https://portfolio-silk-five-57.vercel.app/)
 
-## Expanding the ESLint configuration
+## 💡 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ Responsive, modern UI built with React + Tailwind CSS
+- ✨ Smooth animations using Framer Motion
+- 🧩 Modular components and clean code structure
+- 🛠️ Projects section with links to GitHub and live demos
+- 📱 Mobile-friendly design
+- 📬 Contact form with email functionality
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS, Framer Motion
+- **Version Control:** Git, GitHub
+- **Deployment:** Vercel
+
