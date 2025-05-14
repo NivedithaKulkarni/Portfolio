@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 
 function Contact() {
   return (
@@ -20,6 +21,19 @@ function Contact() {
               >
                   nivedithakulkarni20499@gmail.com
               </a>
+              <div className="flex justify-center pt-2 gap-6 text-lg text-center">
+                      <a
+                        href="https://www.linkedin.com/in/nivedithakulkarni"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-300 text-3xl hover:text-white transition-colors duration-300"
+                        aria-label="LinkedIn"
+                      >
+                        <FaLinkedin />
+                      </a>
+
+                    
+                    </div>
         </div>
 
     </div>
