@@ -11,6 +11,7 @@ import { FaJava } from "react-icons/fa";
 import { FaJsSquare } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
+import { FaAws } from "react-icons/fa";
 import {motion} from "framer-motion"
 
 const iconvariants = (i) => ({
@@ -19,7 +20,7 @@ const iconvariants = (i) => ({
     y:[10,-10],
     transition:{
       delay:i*0.5,
-      duration:1.5,
+      duration:5,
       case:"linear",
       repeat:Infinity,
       repeatType:"reverse",
@@ -38,6 +39,7 @@ const techList = [
   { icon: <FaJsSquare className="icon js" />, name: "JavaScript" },
   { icon: <FaPython className="icon python" />, name: "Python" },
   { icon: <GrMysql className="icon mysql" />, name: "MySQL" },
+  { icon: <FaAws className="icon aws" />, name: "AWS" },
 ];
 
 function Technologies() {

@@ -32,9 +32,11 @@ const HeroSection = () => {
           <motion.h2 variants={childvariants} className="text-xl font-semibold text-gray-300 mb-6">
             Full Stack Web Developer
           </motion.h2>
-          <motion.p  className="text-gray-400 text-lg leading-relaxed text-center mb-8">
-           As a MERN stack developer, I specialize in crafting modern, responsive web applications using MongoDB, Express.js, React, and Node.js. While I'm a fresher in the professional world, I've built a solid foundation through hands-on projects that showcase my problem-solving skills and creativity.
-Outside of coding. When I’m not at my desk writing code, you’ll probably find me dancing Bharatanatyam or swimming laps. </motion.p>
+          <motion.p className="text-gray-400 text-lg leading-relaxed text-center justify-center mb-8 pl-4.5">
+            As a MERN stack developer, I specialize in crafting modern, responsive web applications using MongoDB, Express.js, React, and Node.js.
+            <p className='pb-2'>While I’m just starting out professionally, my journey has already been shaped by hands-on projects that reflect my problem-solving mindset, clean code practices, and creative design thinking.</p>
+           <p className='pb-2'> I'm a big believer in continuous learning and staying adaptable. Right now, I'm expanding my skills with AWS to explore cloud-based solutions, and I'm also learning Dutch to better connect with both global teams and local culture.</p>
+            <p>Outside of coding. When I’m not at my desk writing code, you’ll probably find me dancing Bharatanatyam or swimming laps.</p> </motion.p>
           <motion.a
             variants={childvariants}
             href={resume}
