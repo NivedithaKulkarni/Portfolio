@@ -1,0 +1,132 @@
+.technologies-container {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin: 40px 0;
+}
+
+.icons-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.icon {
+  font-size: 3.5rem;
+  transition: transform 0.3s;
+}
+
+.icon-wrapper:hover .icon {
+  transform: scale(1.1);
+}
+
+.tech-name {
+  font-size: 0.9rem;
+  color: white;
+  margin-top: 8px;
+  opacity: 0;
+  transform: translateY(-5px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+
+.icon-wrapper:hover .tech-name {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Optional: color classes */
+.icon.html { color: #e34c26; }
+.icon.css { color: #264de4; }
+.icon.mongo { color: #4DB33D; }
+.icon.express { color: gray; }
+.icon.react { color: #61DBFB; }
+.icon.node { color: #3C873A; }
+.icon.java { color: #f44336; }
+.icon.js { color: #f7df1e; }
+.icon.python { color: #306998; }
+.icon.mysql { color: #00758f; }
+
+
+
+/* Tech Badge */
+.tech-badge {
+  background-color: #374151; /* gray-700 */
+  color: #d1d5db;            /* gray-300 */
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: default;
+}
+
+/* Highlight tech badge on hover */
+.tech-badge:hover {
+  background-color: #3b82f6; /* blue-500 */
+  color: white;
+}
+
+.image-container {
+  position: relative;
+  width: 7rem;
+  height: 7rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover .project-image {
+  opacity: 0.5; /* Faded image on hover */
+}
+
+.hover-curtain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 0.6s ease, transform 0.3s ease;
+  border-radius: 1rem;
+   z-index: 1;
+  
+}
+
+.image-container:hover .hover-curtain {
+  opacity: 8; /* Curtain visible on hover */
+  transform: translateY(0);
+}
+
+
+/* Hover Effect to Scale the Whole Project Div */
+.project-div {
+  transition: transform 0.3s ease; /* Smooth scaling transition */
+}
+
+.project-div:hover {
+  transform: scale(1.05); /* Scale the div to 105% on hover */
+}
